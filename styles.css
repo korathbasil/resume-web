@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* START */
+header {
+    display: flex;
+    gap: 20px;
+}
+header > .left > .info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+header > .right {
+    width: 400px;
+}
+header > .right > img {
+    width: 100%;
+    box-shadow: 3px 3px 3px black;
+}
+header > .left > h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(7, 7, 51);
+}
+header > .left > h3 {
+    color: rgb(7, 7, 51);
+}
+
+section {
+    margin: 10px 0;
+}
+
+section > h3 {
+    font-weight: 700;
+    color: rgb(7, 7, 51);
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Contact */
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.contacts > a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contacts > a > img{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.address {
+    display: flex;
+    align-items: center;
+} 
+.address > img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Skill */
+.skill > h4 {
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.skills {
+    display: grid;
+    grid-template-columns: repeat(6, 166px);
+    /* margin-top: 5px; */
+}
+/* Project */
+.project > h4 {
+    margin-top: 10px;
+}
+.techs {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+.features > div > h5 {
+    text-align: center;
+    margin: 5px 0;
+    text-decoration: underline;
+
+}
+.intent {
+    margin-left: 30px;
+}
+.intent > h5 {
+    margin: 5px 0;
+    text-decoration: underline;
+}
+.actions {
+    display: flex;
+    gap: 40px;
+    padding: 5px 0;
+}
+.actions > p > a {
+    font-weight: 700;
+}
+
+
+/* Edu */
+.edu > hr {
+    margin-bottom: 10px;
+}
