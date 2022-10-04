@@ -24,11 +24,6 @@ header {
     display: flex;
     gap: 20px;
 }
-header > .left > .info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
 header > .right {
     width: 400px;
 }
@@ -42,10 +37,11 @@ header > .left > h1 {
 }
 header > .left > h3 {
     color: rgb(7, 7, 51);
+    margin-bottom: 5px;
 }
 
 section {
-    margin: 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 section > h3 {
@@ -54,9 +50,15 @@ section > h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 /* Contact */
+.contact {
+    margin-top: 10px;
+}
 .contacts {
     display: grid;
     grid-template-columns: repeat(3, auto);
+}
+.contacts > p {
+    margin-bottom: 10px;
 }
 .contacts > a {
     display: flex;
