@@ -85,16 +85,16 @@ section > h3 {
 /* Skill */
 .skill > h4 {
     text-decoration: underline;
-    margin-top: 5px;
+   
 }
 .skills {
-    display: grid;
-    grid-template-columns: repeat(6, 166px);
-    /* margin-top: 5px; */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Project */
 .project > h4 {
-    margin-top: 10px;
+    /* margin-top: 10px;     */
 }
 .techs {
     display: grid;
